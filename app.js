@@ -357,7 +357,7 @@ function setCountdown() {
 
 setCountdown();
 
-fetch("data.json", { cache: "no-cache" })
+fetch(`data.json?t=${Date.now()}`, { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("missing");
     return response.json();
