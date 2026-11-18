@@ -5,130 +5,130 @@
   "campaignTotalShown": 22645,
   "topEarners": [
     {
+      "rank": 1,
       "name": "Camryn H.",
       "grade": "TK",
       "teacher": "Ruppert",
-      "amount": 1071,
-      "rank": 1
+      "amount": 1071
     },
     {
+      "rank": 2,
       "name": "Piper T.",
       "grade": "K",
       "teacher": "Bauer",
-      "amount": 1053,
-      "rank": 2
+      "amount": 1053
     },
     {
+      "rank": 3,
       "name": "Tatum L.",
       "grade": "PS",
       "teacher": "Merin",
-      "amount": 811,
-      "rank": 3
+      "amount": 811
     },
     {
+      "rank": 4,
       "name": "Lena J.",
       "grade": "TK",
       "teacher": "Nguyen",
-      "amount": 637,
-      "rank": 4
+      "amount": 637
     },
     {
+      "rank": 5,
       "name": "Tana D.",
       "grade": "5",
       "teacher": "Long",
-      "amount": 525,
-      "rank": 5
+      "amount": 525
     },
     {
+      "rank": 6,
       "name": "Kaden F.",
       "grade": "3",
       "teacher": "Dusserre",
-      "amount": 508,
-      "rank": 6
+      "amount": 508
     },
     {
+      "rank": 6,
       "name": "Kieran K.",
       "grade": "6",
       "teacher": "Frazier",
-      "amount": 508,
-      "rank": 6
+      "amount": 508
     },
     {
+      "rank": 8,
       "name": "Odin S.",
       "grade": "3",
       "teacher": "Calvert",
-      "amount": 500,
-      "rank": 8
+      "amount": 500
     },
     {
+      "rank": 9,
       "name": "Ryland T.",
       "grade": "1",
       "teacher": "Kline/Stefano",
-      "amount": 480,
-      "rank": 9
+      "amount": 480
     },
     {
+      "rank": 10,
       "name": "Jacqueline C.",
       "grade": "PS",
       "teacher": "Merin",
-      "amount": 441.5,
-      "rank": 10
+      "amount": 442
     },
     {
+      "rank": 10,
       "name": "Oscar C.",
       "grade": "TK",
       "teacher": "Nguyen",
-      "amount": 441.5,
-      "rank": 10
+      "amount": 442
     },
     {
+      "rank": 12,
       "name": "Liam A.",
       "grade": "1",
       "teacher": "Kline/Stefano",
-      "amount": 352,
-      "rank": 12
+      "amount": 352
     },
     {
+      "rank": 13,
       "name": "Malia D.",
       "grade": "TK",
       "teacher": "Ruppert",
-      "amount": 322,
-      "rank": 13
+      "amount": 322
     },
     {
+      "rank": 14,
       "name": "Damon H.",
       "grade": "TK",
       "teacher": "Ruppert",
-      "amount": 301,
-      "rank": 14
+      "amount": 301
     },
     {
+      "rank": 15,
       "name": "Cassidy H.",
       "grade": "TK",
       "teacher": "Nguyen",
-      "amount": 300,
-      "rank": 15
+      "amount": 300
     },
     {
+      "rank": 15,
       "name": "Gunner G.",
       "grade": "2",
       "teacher": "Bray",
-      "amount": 300,
-      "rank": 15
+      "amount": 300
     },
     {
+      "rank": 15,
       "name": "Haven G.",
       "grade": "4",
       "teacher": "Hanson",
-      "amount": 300,
-      "rank": 15
+      "amount": 300
     }
   ],
   "classes": [
     {
       "teacher": "Merin",
       "grade": "PS",
-      "total": 2538.99,
+      "total": 2539,
       "studentsWithMoney": 17
     },
     {
@@ -140,67 +140,67 @@
     {
       "teacher": "Nguyen",
       "grade": "TK",
-      "total": 2275.67,
+      "total": 2276,
       "studentsWithMoney": 13
     },
     {
       "teacher": "Bauer",
       "grade": "K",
-      "total": 1740.16,
+      "total": 1740,
       "studentsWithMoney": 9
     },
     {
       "teacher": "Kline/Stefano",
       "grade": "1",
-      "total": 1267.83,
+      "total": 1268,
       "studentsWithMoney": 8
     },
     {
       "teacher": "Calvert",
       "grade": "3",
-      "total": 1100.84,
+      "total": 1101,
       "studentsWithMoney": 8
     },
     {
       "teacher": "Bray",
       "grade": "2",
-      "total": 1099.51,
+      "total": 1100,
       "studentsWithMoney": 11
     },
     {
       "teacher": "Mathers",
       "grade": "5",
-      "total": 965.51,
+      "total": 966,
       "studentsWithMoney": 10
     },
     {
       "teacher": "Frazier",
       "grade": "6",
-      "total": 904.67,
+      "total": 905,
       "studentsWithMoney": 7
     },
     {
       "teacher": "Long",
       "grade": "5",
-      "total": 836.34,
+      "total": 836,
       "studentsWithMoney": 6
     },
     {
       "teacher": "Mongkolkasetarin",
       "grade": "K",
-      "total": 819.16,
+      "total": 819,
       "studentsWithMoney": 8
     },
     {
       "teacher": "Hawkins",
       "grade": "3",
-      "total": 792.92,
+      "total": 793,
       "studentsWithMoney": 9
     },
     {
       "teacher": "Elston",
       "grade": "1",
-      "total": 743.07,
+      "total": 743,
       "studentsWithMoney": 10
     },
     {
@@ -218,7 +218,7 @@
     {
       "teacher": "Dusserre",
       "grade": "3",
-      "total": 616.33,
+      "total": 616,
       "studentsWithMoney": 4
     },
     {
@@ -236,49 +236,49 @@
   ],
   "grades": [
     {
+      "grade": "PS",
+      "total": 2539,
+      "studentsWithMoney": 17
+    },
+    {
       "grade": "TK",
-      "total": 4554.67,
+      "total": 4555,
       "studentsWithMoney": 25
     },
     {
       "grade": "K",
-      "total": 2559.32,
+      "total": 2559,
       "studentsWithMoney": 17
-    },
-    {
-      "grade": "PS",
-      "total": 2538.99,
-      "studentsWithMoney": 17
-    },
-    {
-      "grade": "3",
-      "total": 2510.09,
-      "studentsWithMoney": 21
     },
     {
       "grade": "1",
-      "total": 2010.9,
+      "total": 2011,
       "studentsWithMoney": 18
     },
     {
-      "grade": "5",
-      "total": 1801.85,
-      "studentsWithMoney": 16
-    },
-    {
       "grade": "2",
-      "total": 1750.51,
+      "total": 1751,
       "studentsWithMoney": 19
     },
     {
-      "grade": "6",
-      "total": 1134.67,
-      "studentsWithMoney": 10
+      "grade": "3",
+      "total": 2510,
+      "studentsWithMoney": 21
     },
     {
       "grade": "4",
       "total": 894,
       "studentsWithMoney": 9
+    },
+    {
+      "grade": "5",
+      "total": 1802,
+      "studentsWithMoney": 16
+    },
+    {
+      "grade": "6",
+      "total": 1135,
+      "studentsWithMoney": 10
     }
   ]
 }
