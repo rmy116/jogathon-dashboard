@@ -2,9 +2,16 @@
 
 Static fundraising scoreboard for jog day, Friday, November 20, 2026. The page is plain HTML, CSS, and JavaScript. It reads `data.json` in the browser. There is no build step.
 
-The site address is https://rmy116.github.io/jogathon-dashboard/
+The site address will be https://rmy116.github.io/jogathon-dashboard/ once Pages is turned on. It is not live yet. Creating the Pages site from here failed with `Resource not accessible by integration` (the token cannot change repository settings).
 
-`.github/workflows/pages.yml` publishes the repository root to GitHub Pages on every push to `main`. Under Settings → Pages → Build and deployment, Source has to be **GitHub Actions**. This checkout cannot change that setting.
+Turn it on at Settings → Pages → Build and deployment:
+
+1. Set Source to **GitHub Actions**.
+2. Re-run the failed [Deploy GitHub Pages](https://github.com/rmy116/jogathon-dashboard/actions/workflows/pages.yml) workflow.
+
+`.github/workflows/pages.yml` then publishes the repository root on every push to `main`.
+
+To publish from the branch instead, set Source to **Deploy from a branch**, Branch **main**, folder **/ (root)**, and delete `.github/workflows/pages.yml` so the Actions job stops trying to create an Actions site.
 
 Preview locally with a small web server (`fetch` does not work from a `file://` page):
 
