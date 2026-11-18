@@ -2,7 +2,9 @@
 
 Static fundraising scoreboard for jog day, Friday, November 20, 2026. The page is plain HTML, CSS, and JavaScript. It reads `data.json` in the browser. There is no build step.
 
-Published at https://rmy116.github.io/jogathon-dashboard/
+The site address is https://rmy116.github.io/jogathon-dashboard/
+
+`.github/workflows/pages.yml` publishes the repository root to GitHub Pages on every push to `main`. Under Settings → Pages → Build and deployment, Source has to be **GitHub Actions**. This checkout cannot change that setting.
 
 Preview locally with a small web server (`fetch` does not work from a `file://` page):
 
@@ -14,7 +16,7 @@ Then open http://localhost:8000/
 
 ## How to update the numbers
 
-Replace `data.json` with a new file in the same shape and push to `main`. An external process can overwrite that file. GitHub Pages serves whatever is on `main`. Give it a minute, then hard-refresh if the old totals stick around.
+Replace `data.json` with a new file in the same shape and push to `main`. An external process can overwrite that file. The Pages workflow publishes the new file. Give it a minute, then hard-refresh if the old totals stick around.
 
 This repository is public. Do not commit a full student roster, a per-student export, or any file that lists students beyond the top 15. Names stay first name and last initial. Never add or infer full names. Two student pages can share a name; keep those rows separate and do not merge them.
 
