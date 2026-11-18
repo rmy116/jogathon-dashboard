@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Newport Elementary Jog-a-Thon 2026</title>
+  <meta name="description" content="Fundraising scoreboard for the Newport Elementary Jog-a-Thon on Friday, November 20, 2026.">
+  <meta name="theme-color" content="#78cce4">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the scoreboard</a>
+  <header class="band">
+    <div class="spark spark-a" aria-hidden="true"></div>
+    <div class="spark spark-b" aria-hidden="true"></div>
+    <div class="spark spark-c" aria-hidden="true"></div>
+    <div class="wrap header-grid">
+      <div class="brand">
+        <h1>
+          <img class="logo" src="logo.png" width="1200" height="626" alt="Newport Elementary Jog-a-Thon 2026">
+          <span class="tagline">Fundraising scoreboard</span>
+        </h1>
+        <p class="event">Jog day · Friday, November 20, 2026 <span id="countdown" class="pill" hidden></span></p>
+        <p class="asof" id="asof">Loading the latest totals…</p>
+      </div>
+      <div class="total-card" aria-live="polite">
+        <p class="kicker" id="total-label">Raised on student pages</p>
+        <p class="total" id="total">…</p>
+        <div class="campaign">
+          <p class="kicker kicker-navy">Campaign total shown</p>
+          <p class="campaign-amt" id="campaign-amt">…</p>
+          <p class="fine" id="campaign-note"></p>
+        </div>
+      </div>
+    </div>
+    <div class="wrap">
+      <svg class="track" viewBox="0 0 980 28" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 8 H980" fill="none" stroke="#78cce4" stroke-width="5" stroke-dasharray="18 14" stroke-linecap="round"/>
+        <path d="M0 20 H980" fill="none" stroke="#f0e448" stroke-width="5" stroke-dasharray="18 14" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <p class="lede" id="lede"></p>
+    <nav class="jump" aria-label="Scoreboard sections">
+      <a href="#earners">Top students</a>
+      <a href="#classes">Classes</a>
+      <a href="#grades">Grades</a>
+    </nav>
+
+    <section id="earners">
+      <h2>Top student pages</h2>
+      <p class="intro">The highest student pages in this update. Grade and teacher are shown so matching names stay separate.</p>
+      <ol class="board" id="earners-list"></ol>
+    </section>
+
+    <section id="classes">
+      <h2>Classes</h2>
+      <p class="intro">Every class, ranked by total raised. The count is students with donations.</p>
+      <ol class="board" id="classes-list"></ol>
+    </section>
+
+    <section id="grades">
+      <h2>Grades</h2>
+      <p class="intro">Every grade, ranked by total raised.</p>
+      <ol class="board" id="grades-list"></ol>
+    </section>
+
+    <p class="error" id="error" hidden></p>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Student names are first name and last initial. This page lists only the top student pages. Class and grade rows are totals, not rosters. The big number adds up student pages. Campaign total shown is the separate figure published for the whole campaign.</p>
+  </footer>
+  <noscript>
+    <p class="wrap error">This scoreboard needs JavaScript to read data.json.</p>
+  </noscript>
+  <script src="app.js"></script>
+</body>
+</html>
