@@ -26,21 +26,25 @@
         <p class="asof" id="asof">Loading the latest totals…</p>
       </div>
       <div class="total-card" aria-live="polite">
-        <p class="kicker" id="total-label">Campaign total</p>
-        <p class="total" id="total">…</p>
-        <p class="sponsor-line" id="sponsor-line" hidden></p>
-        <div class="thermo" id="thermo">
-          <div class="thermo-meter">
-            <div class="thermo-bulb" aria-hidden="true"></div>
-            <div class="thermo-track" aria-hidden="true">
-              <div class="thermo-fill" id="thermo-fill"></div>
-            </div>
+        <div class="score-row">
+          <div class="score-copy">
+            <p class="kicker" id="total-label">Campaign total</p>
+            <p class="total" id="total">…</p>
+            <p class="sponsor-line" id="sponsor-line" hidden></p>
           </div>
-          <p class="thermo-readout">
-            <span class="thermo-pct" id="thermo-pct"></span>
-            <span class="thermo-goal" id="thermo-goal"></span>
-          </p>
-          <p class="thermo-past" id="thermo-past" hidden></p>
+          <div class="thermo" id="thermo">
+            <p class="thermo-readout">
+              <span class="thermo-pct" id="thermo-pct"></span>
+              <span class="thermo-goal" id="thermo-goal"></span>
+            </p>
+            <div class="thermo-meter" aria-hidden="true">
+              <div class="thermo-track">
+                <div class="thermo-fill" id="thermo-fill"></div>
+              </div>
+              <div class="thermo-bulb"></div>
+            </div>
+            <p class="thermo-past" id="thermo-past" hidden></p>
+          </div>
         </div>
       </div>
     </div>

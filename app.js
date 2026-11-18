@@ -117,7 +117,7 @@ function showError(message) {
     sponsor.textContent = "";
   }
   const fill = $("thermo-fill");
-  if (fill) fill.style.width = "0%";
+  if (fill) fill.style.height = "0%";
 }
 
 function sponsorshipDollars(data) {
@@ -244,7 +244,7 @@ function render(data) {
 
   const thermo = $("thermo");
   thermo.classList.toggle("is-past", pct >= 100);
-  $("thermo-fill").style.width = `${fillPct}%`;
+  $("thermo-fill").style.height = `${fillPct}%`;
   $("thermo-pct").textContent = `${pctText}% of goal`;
   $("thermo-goal").textContent = money(goal);
   const past = $("thermo-past");
