@@ -34,15 +34,19 @@ function cents(value) {
   return Math.round(n * 100);
 }
 
+const DEFAULT_GOAL = 40000;
+
 function money(value) {
-  const c = cents(value);
-  if (c === null) return "—";
-  const sign = c < 0 ? "-" : "";
-  const abs = Math.abs(c);
-  const dollars = Math.floor(abs / 100).toLocaleString("en-US");
-  const rem = abs % 100;
-  if (rem === 0) return `${sign}$${dollars}`;
-  return `${sign}$${dollars}.${String(rem).padStart(2, "0")}`;
+  const n = asNumber(value);
+  if (!Number.isFinite(n)) return "—";
+  const dollars = Math.round(n);
+  const sign = dollars < 0 ? "-" : "";
+  return `${sign}$${Math.abs(dollars).toLocaleString("en-US")}`;
+}
+
+function formatPercent(pct) {
+  const rounded = Math.round(pct * 10) / 10;
+  return Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
 }
 
 function gradeCode(value) {
@@ -107,7 +111,22 @@ function showError(message) {
     node.hidden = true;
   });
   $("total").textContent = "—";
-  $("campaign-amt").textContent = "—";
+  const sponsor = $("sponsor-line");
+  if (sponsor) {
+    sponsor.hidden = true;
+    sponsor.textContent = "";
+  }
+  const fill = $("thermo-fill");
+  if (fill) fill.style.width = "0%";
+}
+
+function sponsorshipDollars(data) {
+  if (!data || typeof data !== "object" || !Object.prototype.hasOwnProperty.call(data, "sponsorships")) {
+    return 0;
+  }
+  const n = asNumber(data.sponsorships);
+  if (!Number.isFinite(n) || n <= 0) return 0;
+  return Math.round(n);
 }
 
 function medal(rank) {
@@ -198,25 +217,46 @@ function render(data) {
     return;
   }
 
-  const total = asNumber(data.totalRaised);
   const campaign = asNumber(data.campaignTotalShown);
-  if (!Number.isFinite(total) || !Number.isFinite(campaign)) {
-    showError("data.json needs numeric totalRaised and campaignTotalShown values.");
+  if (!Number.isFinite(campaign)) {
+    showError("data.json needs a numeric campaignTotalShown value.");
     return;
   }
 
-  $("asof").textContent = asOfLabel(data.updated);
-  $("total").textContent = money(total);
-  $("campaign-amt").textContent = money(campaign);
+  const sponsorships = sponsorshipDollars(data);
+  const headline = campaign + sponsorships;
+  const goalValue = asNumber(data.goal);
+  const goal = Number.isFinite(goalValue) && goalValue > 0 ? goalValue : DEFAULT_GOAL;
+  const pct = (headline / goal) * 100;
+  const pctText = formatPercent(pct);
+  const fillPct = Math.max(0, Math.min(100, pct));
 
-  const gap = (cents(campaign) ?? 0) - (cents(total) ?? 0);
-  const note = $("campaign-note");
-  if (gap > 0) {
-    note.textContent = `Includes ${money(gap / 100)} in general donations that are not on a student page.`;
-  } else if (gap === 0) {
-    note.textContent = "Same figure as the student pages.";
+  $("asof").textContent = asOfLabel(data.updated);
+  $("total").textContent = money(headline);
+  const sponsor = $("sponsor-line");
+  if (sponsorships > 0) {
+    sponsor.hidden = false;
+    sponsor.textContent = `Includes ${money(sponsorships)} in sponsorships`;
   } else {
-    note.textContent = "Published total for the whole campaign.";
+    sponsor.hidden = true;
+    sponsor.textContent = "";
+  }
+
+  const thermo = $("thermo");
+  thermo.classList.toggle("is-past", pct >= 100);
+  $("thermo-fill").style.width = `${fillPct}%`;
+  $("thermo-pct").textContent = `${pctText}% of goal`;
+  $("thermo-goal").textContent = money(goal);
+  const past = $("thermo-past");
+  if (pct > 100) {
+    past.hidden = false;
+    past.textContent = "Past the goal!";
+  } else if (pct === 100) {
+    past.hidden = false;
+    past.textContent = "Goal reached!";
+  } else {
+    past.hidden = true;
+    past.textContent = "";
   }
 
   const earners = Array.isArray(data.topEarners) ? data.topEarners : [];
@@ -234,7 +274,11 @@ function render(data) {
     lede.textContent = classes.length === 1 ? "1 class on the board." : `${classes.length} classes on the board.`;
   }
 
-  const rankedEarners = ranked(earners, (row) => row.amount);
+  const rankedEarners = ranked(earners, (row) => row.amount).map((entry) => {
+    const given = asNumber(entry.item.rank);
+    if (Number.isFinite(given)) entry.rank = Math.round(given);
+    return entry;
+  });
   fillBoard(
     $("earners-list"),
     rankedEarners,

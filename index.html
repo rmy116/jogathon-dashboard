@@ -16,7 +16,7 @@
     <div class="spark spark-a" aria-hidden="true"></div>
     <div class="spark spark-b" aria-hidden="true"></div>
     <div class="spark spark-c" aria-hidden="true"></div>
-    <div class="wrap header-grid">
+    <div class="wrap header-stack">
       <div class="brand">
         <h1>
           <img class="logo" src="logo.png" width="1200" height="626" alt="Newport Elementary Jog-a-Thon 2026">
@@ -26,12 +26,21 @@
         <p class="asof" id="asof">Loading the latest totals…</p>
       </div>
       <div class="total-card" aria-live="polite">
-        <p class="kicker" id="total-label">Raised on student pages</p>
+        <p class="kicker" id="total-label">Campaign total</p>
         <p class="total" id="total">…</p>
-        <div class="campaign">
-          <p class="kicker kicker-navy">Campaign total shown</p>
-          <p class="campaign-amt" id="campaign-amt">…</p>
-          <p class="fine" id="campaign-note"></p>
+        <p class="sponsor-line" id="sponsor-line" hidden></p>
+        <div class="thermo" id="thermo">
+          <div class="thermo-meter">
+            <div class="thermo-bulb" aria-hidden="true"></div>
+            <div class="thermo-track" aria-hidden="true">
+              <div class="thermo-fill" id="thermo-fill"></div>
+            </div>
+          </div>
+          <p class="thermo-readout">
+            <span class="thermo-pct" id="thermo-pct"></span>
+            <span class="thermo-goal" id="thermo-goal"></span>
+          </p>
+          <p class="thermo-past" id="thermo-past" hidden></p>
         </div>
       </div>
     </div>
@@ -73,7 +82,8 @@
   </main>
 
   <footer class="wrap footer">
-    <p>Student names are first name and last initial. This page lists only the top student pages. Class and grade rows are totals, not rosters. The big number adds up student pages. Campaign total shown is the separate figure published for the whole campaign.</p>
+    <p>Student names are first name and last initial. This page lists the top 15 student pages, plus anyone tied for 15th. Class and grade rows are totals, not rosters.</p>
+    <p>The headline total is the campaign total, which includes general donations not tied to a student page, so student, class, and grade totals add up to less than it. Sponsorships are collected separately and added to the total only.</p>
   </footer>
   <noscript>
     <p class="wrap error">This scoreboard needs JavaScript to read data.json.</p>
