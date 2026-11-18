@@ -47,7 +47,7 @@ This repository is public. Do not commit a full student roster, a per-student ex
 ```
 
 - `updated`: ISO-8601 timestamp, or a `YYYY-MM-DD` date. The page shows that calendar date as “as of” (the date written in the value, not the viewer’s time zone).
-- `topEarners`: at most 15 student pages, highest amounts. `name` is first name and last initial only. If 15th place is a tie, keep 15 rows and break the tie with a stable source order.
+- `topEarners`: the highest student pages, plus everyone tied for 15th place. `name` is first name and last initial only. Do not drop a student who matches the 15th-place amount. The page renders every row in this list.
 - `grade`: `PS` (preschool), `TK`, `K`, or `1` through `6`.
 - `teacher`: last name.
 - `classes`: one row per class. `total` is dollars raised. `studentsWithMoney` counts students in that class above $0. Do not include a student list.

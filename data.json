@@ -92,6 +92,18 @@
       "grade": "TK",
       "teacher": "Nguyen",
       "amount": 300
+    },
+    {
+      "name": "Gunner G.",
+      "grade": "2",
+      "teacher": "Bray",
+      "amount": 300
+    },
+    {
+      "name": "Haven G.",
+      "grade": "4",
+      "teacher": "Hanson",
+      "amount": 300
     }
   ],
   "classes": [

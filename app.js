@@ -219,7 +219,7 @@ function render(data) {
     note.textContent = "Published total for the whole campaign.";
   }
 
-  const earners = (Array.isArray(data.topEarners) ? data.topEarners : []).slice(0, 15);
+  const earners = Array.isArray(data.topEarners) ? data.topEarners : [];
   const classes = Array.isArray(data.classes) ? data.classes.slice() : [];
   const grades = Array.isArray(data.grades) ? data.grades.slice() : [];
 
