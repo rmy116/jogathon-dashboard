@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-17T20:17:00-08:00",
+  "updated": "2026-11-18T08:16:00-08:00",
   "goal": 40000,
-  "totalRaised": 31106,
-  "campaignTotalShown": 32657,
+  "totalRaised": 31532,
+  "campaignTotalShown": 33098,
   "topEarners": [
     {
       "rank": 1,
@@ -16,7 +16,7 @@
       "name": "Piper T.",
       "grade": "K",
       "teacher": "Bauer",
-      "amount": 1206
+      "amount": 1256
     },
     {
       "rank": 3,
@@ -27,17 +27,17 @@
     },
     {
       "rank": 4,
+      "name": "Tatum L.",
+      "grade": "PS",
+      "teacher": "Merin",
+      "amount": 1063
+    },
+    {
+      "rank": 5,
       "name": "Ayden M.",
       "grade": "K",
       "teacher": "Mongkolkasetarin",
       "amount": 1050
-    },
-    {
-      "rank": 5,
-      "name": "Tatum L.",
-      "grade": "PS",
-      "teacher": "Merin",
-      "amount": 1013
     },
     {
       "rank": 6,
@@ -51,14 +51,14 @@
       "name": "Aedan F.",
       "grade": "3",
       "teacher": "Hawkins",
-      "amount": 789
+      "amount": 802
     },
     {
       "rank": 7,
       "name": "Kaia F.",
       "grade": "2",
       "teacher": "Reynolds",
-      "amount": 789
+      "amount": 802
     },
     {
       "rank": 9,
@@ -126,7 +126,7 @@
     {
       "teacher": "Merin",
       "grade": "PS",
-      "total": 3582,
+      "total": 3665,
       "studentsWithMoney": 19
     },
     {
@@ -144,25 +144,25 @@
     {
       "teacher": "Bauer",
       "grade": "K",
-      "total": 1968,
+      "total": 2051,
       "studentsWithMoney": 10
     },
     {
       "teacher": "Hawkins",
       "grade": "3",
-      "total": 1647,
-      "studentsWithMoney": 9
+      "total": 1685,
+      "studentsWithMoney": 11
     },
     {
       "teacher": "Reynolds",
       "grade": "2",
-      "total": 1450,
+      "total": 1463,
       "studentsWithMoney": 8
     },
     {
       "teacher": "Bray",
       "grade": "2",
-      "total": 1367,
+      "total": 1401,
       "studentsWithMoney": 11
     },
     {
@@ -178,16 +178,16 @@
       "studentsWithMoney": 8
     },
     {
+      "teacher": "Dusserre",
+      "grade": "3",
+      "total": 1111,
+      "studentsWithMoney": 8
+    },
+    {
       "teacher": "Frazier",
       "grade": "6",
       "total": 992,
       "studentsWithMoney": 9
-    },
-    {
-      "teacher": "Dusserre",
-      "grade": "3",
-      "total": 986,
-      "studentsWithMoney": 8
     },
     {
       "teacher": "Long",
@@ -210,7 +210,7 @@
     {
       "teacher": "Cabellon",
       "grade": "6",
-      "total": 557,
+      "total": 607,
       "studentsWithMoney": 4
     },
     {
@@ -223,7 +223,7 @@
   "grades": [
     {
       "grade": "PS",
-      "total": 3582,
+      "total": 3665,
       "studentsWithMoney": 19
     },
     {
@@ -233,7 +233,7 @@
     },
     {
       "grade": "K",
-      "total": 4773,
+      "total": 4857,
       "studentsWithMoney": 21
     },
     {
@@ -243,13 +243,13 @@
     },
     {
       "grade": "2",
-      "total": 2817,
+      "total": 2864,
       "studentsWithMoney": 19
     },
     {
       "grade": "3",
-      "total": 3779,
-      "studentsWithMoney": 25
+      "total": 3942,
+      "studentsWithMoney": 27
     },
     {
       "grade": "4",
@@ -263,7 +263,7 @@
     },
     {
       "grade": "6",
-      "total": 1549,
+      "total": 1599,
       "studentsWithMoney": 13
     }
   ]
