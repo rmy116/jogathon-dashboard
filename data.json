@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-18T08:16:00-08:00",
+  "updated": "2026-11-18T12:18:00-08:00",
   "goal": 40000,
-  "totalRaised": 31532,
-  "campaignTotalShown": 33098,
+  "totalRaised": 31793,
+  "campaignTotalShown": 33358,
   "topEarners": [
     {
       "rank": 1,
@@ -16,7 +16,7 @@
       "name": "Piper T.",
       "grade": "K",
       "teacher": "Bauer",
-      "amount": 1256
+      "amount": 1320
     },
     {
       "rank": 3,
@@ -132,7 +132,7 @@
     {
       "teacher": "Mongkolkasetarin",
       "grade": "K",
-      "total": 2805,
+      "total": 2922,
       "studentsWithMoney": 11
     },
     {
@@ -144,13 +144,13 @@
     {
       "teacher": "Bauer",
       "grade": "K",
-      "total": 2051,
+      "total": 2115,
       "studentsWithMoney": 10
     },
     {
       "teacher": "Hawkins",
       "grade": "3",
-      "total": 1685,
+      "total": 1740,
       "studentsWithMoney": 11
     },
     {
@@ -162,7 +162,7 @@
     {
       "teacher": "Bray",
       "grade": "2",
-      "total": 1401,
+      "total": 1413,
       "studentsWithMoney": 11
     },
     {
@@ -204,7 +204,7 @@
     {
       "teacher": "Hanson",
       "grade": "4",
-      "total": 781,
+      "total": 794,
       "studentsWithMoney": 6
     },
     {
@@ -233,7 +233,7 @@
     },
     {
       "grade": "K",
-      "total": 4857,
+      "total": 5038,
       "studentsWithMoney": 21
     },
     {
@@ -243,17 +243,17 @@
     },
     {
       "grade": "2",
-      "total": 2864,
+      "total": 2876,
       "studentsWithMoney": 19
     },
     {
       "grade": "3",
-      "total": 3942,
+      "total": 3997,
       "studentsWithMoney": 27
     },
     {
       "grade": "4",
-      "total": 1044,
+      "total": 1057,
       "studentsWithMoney": 9
     },
     {
