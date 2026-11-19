@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-18T12:18:00-08:00",
+  "updated": "2026-11-18T16:18:00-08:00",
   "goal": 40000,
-  "totalRaised": 31793,
-  "campaignTotalShown": 33358,
+  "totalRaised": 32148,
+  "campaignTotalShown": 33739,
   "topEarners": [
     {
       "rank": 1,
@@ -120,19 +120,19 @@
     {
       "teacher": "Ruppert",
       "grade": "TK",
-      "total": 3709,
+      "total": 3810,
       "studentsWithMoney": 14
     },
     {
       "teacher": "Merin",
       "grade": "PS",
-      "total": 3665,
+      "total": 3674,
       "studentsWithMoney": 19
     },
     {
       "teacher": "Mongkolkasetarin",
       "grade": "K",
-      "total": 2922,
+      "total": 2942,
       "studentsWithMoney": 11
     },
     {
@@ -144,13 +144,13 @@
     {
       "teacher": "Bauer",
       "grade": "K",
-      "total": 2115,
+      "total": 2124,
       "studentsWithMoney": 10
     },
     {
       "teacher": "Hawkins",
       "grade": "3",
-      "total": 1740,
+      "total": 1824,
       "studentsWithMoney": 11
     },
     {
@@ -162,7 +162,7 @@
     {
       "teacher": "Bray",
       "grade": "2",
-      "total": 1413,
+      "total": 1434,
       "studentsWithMoney": 11
     },
     {
@@ -172,15 +172,15 @@
       "studentsWithMoney": 9
     },
     {
-      "teacher": "Calvert",
+      "teacher": "Dusserre",
       "grade": "3",
-      "total": 1146,
+      "total": 1211,
       "studentsWithMoney": 8
     },
     {
-      "teacher": "Dusserre",
+      "teacher": "Calvert",
       "grade": "3",
-      "total": 1111,
+      "total": 1146,
       "studentsWithMoney": 8
     },
     {
@@ -210,7 +210,7 @@
     {
       "teacher": "Cabellon",
       "grade": "6",
-      "total": 607,
+      "total": 620,
       "studentsWithMoney": 4
     },
     {
@@ -223,17 +223,17 @@
   "grades": [
     {
       "grade": "PS",
-      "total": 3665,
+      "total": 3674,
       "studentsWithMoney": 19
     },
     {
       "grade": "TK",
-      "total": 6250,
+      "total": 6351,
       "studentsWithMoney": 28
     },
     {
       "grade": "K",
-      "total": 5038,
+      "total": 5066,
       "studentsWithMoney": 21
     },
     {
@@ -243,12 +243,12 @@
     },
     {
       "grade": "2",
-      "total": 2876,
+      "total": 2897,
       "studentsWithMoney": 19
     },
     {
       "grade": "3",
-      "total": 3997,
+      "total": 4181,
       "studentsWithMoney": 27
     },
     {
@@ -263,7 +263,7 @@
     },
     {
       "grade": "6",
-      "total": 1599,
+      "total": 1612,
       "studentsWithMoney": 13
     }
   ]
