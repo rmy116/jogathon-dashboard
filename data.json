@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-19T08:19:00-08:00",
+  "updated": "2026-11-19T12:18:00-08:00",
   "goal": 40000,
-  "totalRaised": 33307,
-  "campaignTotalShown": 35001,
+  "totalRaised": 34766,
+  "campaignTotalShown": 36460,
   "topEarners": [
     {
       "rank": 1,
@@ -112,21 +112,21 @@
   ],
   "classes": [
     {
-      "teacher": "Mathers",
-      "grade": "5",
-      "total": 4155,
-      "studentsWithMoney": 12
-    },
-    {
       "teacher": "Merin",
       "grade": "PS",
-      "total": 3874,
-      "studentsWithMoney": 19
+      "total": 4280,
+      "studentsWithMoney": 20
+    },
+    {
+      "teacher": "Mathers",
+      "grade": "5",
+      "total": 4230,
+      "studentsWithMoney": 13
     },
     {
       "teacher": "Ruppert",
       "grade": "TK",
-      "total": 3810,
+      "total": 3911,
       "studentsWithMoney": 14
     },
     {
@@ -156,12 +156,18 @@
     {
       "teacher": "Bray",
       "grade": "2",
-      "total": 1634,
+      "total": 1671,
       "studentsWithMoney": 11
     },
     {
       "teacher": "Reynolds",
       "grade": "2",
+      "total": 1663,
+      "studentsWithMoney": 9
+    },
+    {
+      "teacher": "Dusserre",
+      "grade": "3",
       "total": 1588,
       "studentsWithMoney": 9
     },
@@ -174,26 +180,20 @@
     {
       "teacher": "Calvert",
       "grade": "3",
-      "total": 1275,
+      "total": 1300,
       "studentsWithMoney": 8
-    },
-    {
-      "teacher": "Dusserre",
-      "grade": "3",
-      "total": 1211,
-      "studentsWithMoney": 8
-    },
-    {
-      "teacher": "Elston",
-      "grade": "1",
-      "total": 1059,
-      "studentsWithMoney": 10
     },
     {
       "teacher": "Frazier",
       "grade": "6",
-      "total": 992,
-      "studentsWithMoney": 9
+      "total": 1092,
+      "studentsWithMoney": 10
+    },
+    {
+      "teacher": "Elston",
+      "grade": "1",
+      "total": 1084,
+      "studentsWithMoney": 10
     },
     {
       "teacher": "Long",
@@ -210,25 +210,25 @@
     {
       "teacher": "Cabellon",
       "grade": "6",
-      "total": 620,
-      "studentsWithMoney": 4
+      "total": 732,
+      "studentsWithMoney": 5
     },
     {
       "teacher": "Jennings",
       "grade": "4",
-      "total": 388,
-      "studentsWithMoney": 4
+      "total": 513,
+      "studentsWithMoney": 5
     }
   ],
   "grades": [
     {
       "grade": "PS",
-      "total": 3874,
-      "studentsWithMoney": 19
+      "total": 4280,
+      "studentsWithMoney": 20
     },
     {
       "grade": "TK",
-      "total": 6451,
+      "total": 6551,
       "studentsWithMoney": 28
     },
     {
@@ -238,33 +238,33 @@
     },
     {
       "grade": "1",
-      "total": 2485,
+      "total": 2510,
       "studentsWithMoney": 19
     },
     {
       "grade": "2",
-      "total": 3222,
+      "total": 3334,
       "studentsWithMoney": 20
     },
     {
       "grade": "3",
-      "total": 4310,
-      "studentsWithMoney": 27
+      "total": 4712,
+      "studentsWithMoney": 28
     },
     {
       "grade": "4",
-      "total": 1182,
-      "studentsWithMoney": 10
+      "total": 1307,
+      "studentsWithMoney": 11
     },
     {
       "grade": "5",
-      "total": 5106,
-      "studentsWithMoney": 18
+      "total": 5181,
+      "studentsWithMoney": 19
     },
     {
       "grade": "6",
-      "total": 1612,
-      "studentsWithMoney": 13
+      "total": 1824,
+      "studentsWithMoney": 15
     }
   ]
 }
