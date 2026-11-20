@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-19T12:18:00-08:00",
+  "updated": "2026-11-19T16:20:00-08:00",
   "goal": 40000,
-  "totalRaised": 34766,
-  "campaignTotalShown": 36460,
+  "totalRaised": 35266,
+  "campaignTotalShown": 37035,
   "topEarners": [
     {
       "rank": 1,
@@ -114,13 +114,13 @@
     {
       "teacher": "Merin",
       "grade": "PS",
-      "total": 4280,
+      "total": 4555,
       "studentsWithMoney": 20
     },
     {
       "teacher": "Mathers",
       "grade": "5",
-      "total": 4230,
+      "total": 4330,
       "studentsWithMoney": 13
     },
     {
@@ -138,7 +138,7 @@
     {
       "teacher": "Nguyen",
       "grade": "TK",
-      "total": 2641,
+      "total": 2666,
       "studentsWithMoney": 14
     },
     {
@@ -156,13 +156,13 @@
     {
       "teacher": "Bray",
       "grade": "2",
-      "total": 1671,
+      "total": 1721,
       "studentsWithMoney": 11
     },
     {
       "teacher": "Reynolds",
       "grade": "2",
-      "total": 1663,
+      "total": 1688,
       "studentsWithMoney": 9
     },
     {
@@ -216,19 +216,19 @@
     {
       "teacher": "Jennings",
       "grade": "4",
-      "total": 513,
+      "total": 538,
       "studentsWithMoney": 5
     }
   ],
   "grades": [
     {
       "grade": "PS",
-      "total": 4280,
+      "total": 4555,
       "studentsWithMoney": 20
     },
     {
       "grade": "TK",
-      "total": 6551,
+      "total": 6576,
       "studentsWithMoney": 28
     },
     {
@@ -243,7 +243,7 @@
     },
     {
       "grade": "2",
-      "total": 3334,
+      "total": 3409,
       "studentsWithMoney": 20
     },
     {
@@ -253,12 +253,12 @@
     },
     {
       "grade": "4",
-      "total": 1307,
+      "total": 1332,
       "studentsWithMoney": 11
     },
     {
       "grade": "5",
-      "total": 5181,
+      "total": 5281,
       "studentsWithMoney": 19
     },
     {
