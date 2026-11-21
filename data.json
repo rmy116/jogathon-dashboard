@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-20T14:05:00-08:00",
+  "updated": "2026-11-20T16:05:00-08:00",
   "goal": 40000,
-  "totalRaised": 40836,
-  "campaignTotalShown": 43113,
+  "totalRaised": 40936,
+  "campaignTotalShown": 43213,
   "topEarners": [
     {
       "rank": 1,
@@ -144,13 +144,13 @@
     {
       "teacher": "Bauer",
       "grade": "K",
-      "total": 2687,
+      "total": 2737,
       "studentsWithMoney": 12
     },
     {
       "teacher": "Reynolds",
       "grade": "2",
-      "total": 2440,
+      "total": 2465,
       "studentsWithMoney": 11
     },
     {
@@ -198,7 +198,7 @@
     {
       "teacher": "Jennings",
       "grade": "4",
-      "total": 1064,
+      "total": 1089,
       "studentsWithMoney": 6
     },
     {
@@ -233,7 +233,7 @@
     },
     {
       "grade": "K",
-      "total": 5755,
+      "total": 5805,
       "studentsWithMoney": 24
     },
     {
@@ -243,7 +243,7 @@
     },
     {
       "grade": "2",
-      "total": 4453,
+      "total": 4478,
       "studentsWithMoney": 22
     },
     {
@@ -253,7 +253,7 @@
     },
     {
       "grade": "4",
-      "total": 1983,
+      "total": 2008,
       "studentsWithMoney": 13
     },
     {
