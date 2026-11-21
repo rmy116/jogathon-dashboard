@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-20T16:05:00-08:00",
+  "updated": "2026-11-20T18:05:00-08:00",
   "goal": 40000,
-  "totalRaised": 40936,
-  "campaignTotalShown": 43213,
+  "totalRaised": 41077,
+  "campaignTotalShown": 43355,
   "topEarners": [
     {
       "rank": 1,
@@ -132,7 +132,7 @@
     {
       "teacher": "Mongkolkasetarin",
       "grade": "K",
-      "total": 3068,
+      "total": 3109,
       "studentsWithMoney": 12
     },
     {
@@ -150,7 +150,7 @@
     {
       "teacher": "Reynolds",
       "grade": "2",
-      "total": 2465,
+      "total": 2515,
       "studentsWithMoney": 11
     },
     {
@@ -198,7 +198,7 @@
     {
       "teacher": "Jennings",
       "grade": "4",
-      "total": 1089,
+      "total": 1139,
       "studentsWithMoney": 6
     },
     {
@@ -233,7 +233,7 @@
     },
     {
       "grade": "K",
-      "total": 5805,
+      "total": 5846,
       "studentsWithMoney": 24
     },
     {
@@ -243,7 +243,7 @@
     },
     {
       "grade": "2",
-      "total": 4478,
+      "total": 4528,
       "studentsWithMoney": 22
     },
     {
@@ -253,7 +253,7 @@
     },
     {
       "grade": "4",
-      "total": 2008,
+      "total": 2058,
       "studentsWithMoney": 13
     },
     {
