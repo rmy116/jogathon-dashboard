@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-20T20:09:00-08:00",
+  "updated": "2026-11-21T08:14:00-08:00",
   "goal": 40000,
-  "totalRaised": 41252,
-  "campaignTotalShown": 43530,
+  "totalRaised": 41278,
+  "campaignTotalShown": 43555,
   "topEarners": [
     {
       "rank": 1,
@@ -20,17 +20,17 @@
     },
     {
       "rank": 3,
+      "name": "Tatum L.",
+      "grade": "PS",
+      "teacher": "Merin",
+      "amount": 1189
+    },
+    {
+      "rank": 4,
       "name": "Camryn H.",
       "grade": "TK",
       "teacher": "Ruppert",
       "amount": 1181
-    },
-    {
-      "rank": 4,
-      "name": "Tatum L.",
-      "grade": "PS",
-      "teacher": "Merin",
-      "amount": 1163
     },
     {
       "rank": 5,
@@ -114,7 +114,7 @@
     {
       "teacher": "Merin",
       "grade": "PS",
-      "total": 5264,
+      "total": 5290,
       "studentsWithMoney": 20
     },
     {
@@ -223,7 +223,7 @@
   "grades": [
     {
       "grade": "PS",
-      "total": 5264,
+      "total": 5290,
       "studentsWithMoney": 20
     },
     {
