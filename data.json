@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-21T08:14:00-08:00",
+  "updated": "2026-11-21T20:00:00-08:00",
   "goal": 40000,
-  "totalRaised": 41278,
-  "campaignTotalShown": 43555,
+  "totalRaised": 41303,
+  "campaignTotalShown": 43580,
   "topEarners": [
     {
       "rank": 1,
@@ -126,7 +126,7 @@
     {
       "teacher": "Ruppert",
       "grade": "TK",
-      "total": 4061,
+      "total": 4086,
       "studentsWithMoney": 14
     },
     {
@@ -228,7 +228,7 @@
     },
     {
       "grade": "TK",
-      "total": 7085,
+      "total": 7110,
       "studentsWithMoney": 28
     },
     {
