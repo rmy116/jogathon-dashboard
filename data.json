@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-21T20:00:00-08:00",
+  "updated": "2026-11-22T19:57:00-08:00",
   "goal": 40000,
-  "totalRaised": 41303,
-  "campaignTotalShown": 43580,
+  "totalRaised": 41453,
+  "campaignTotalShown": 43731,
   "topEarners": [
     {
       "rank": 1,
@@ -16,7 +16,7 @@
       "name": "Piper T.",
       "grade": "K",
       "teacher": "Bauer",
-      "amount": 1320
+      "amount": 1345
     },
     {
       "rank": 3,
@@ -126,7 +126,7 @@
     {
       "teacher": "Ruppert",
       "grade": "TK",
-      "total": 4086,
+      "total": 4111,
       "studentsWithMoney": 14
     },
     {
@@ -138,13 +138,13 @@
     {
       "teacher": "Nguyen",
       "grade": "TK",
-      "total": 3024,
+      "total": 3074,
       "studentsWithMoney": 14
     },
     {
       "teacher": "Bauer",
       "grade": "K",
-      "total": 2787,
+      "total": 2812,
       "studentsWithMoney": 12
     },
     {
@@ -172,16 +172,16 @@
       "studentsWithMoney": 11
     },
     {
+      "teacher": "Kline/Stefano",
+      "grade": "1",
+      "total": 1501,
+      "studentsWithMoney": 9
+    },
+    {
       "teacher": "Elston",
       "grade": "1",
       "total": 1491,
       "studentsWithMoney": 11
-    },
-    {
-      "teacher": "Kline/Stefano",
-      "grade": "1",
-      "total": 1451,
-      "studentsWithMoney": 9
     },
     {
       "teacher": "Calvert",
@@ -228,17 +228,17 @@
     },
     {
       "grade": "TK",
-      "total": 7110,
+      "total": 7185,
       "studentsWithMoney": 28
     },
     {
       "grade": "K",
-      "total": 5896,
+      "total": 5921,
       "studentsWithMoney": 24
     },
     {
       "grade": "1",
-      "total": 2942,
+      "total": 2992,
       "studentsWithMoney": 20
     },
     {
