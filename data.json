@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-23T19:57:00-08:00",
+  "updated": "2026-11-24T07:56:00-08:00",
   "goal": 40000,
-  "totalRaised": 42835,
-  "campaignTotalShown": 46113,
+  "totalRaised": 42861,
+  "campaignTotalShown": 46139,
   "topEarners": [
     {
       "rank": 1,
@@ -16,7 +16,7 @@
       "name": "Piper T.",
       "grade": "K",
       "teacher": "Bauer",
-      "amount": 1521
+      "amount": 1547
     },
     {
       "rank": 3,
@@ -130,15 +130,15 @@
       "studentsWithMoney": 14
     },
     {
-      "teacher": "Mongkolkasetarin",
+      "teacher": "Bauer",
       "grade": "K",
-      "total": 3109,
+      "total": 3134,
       "studentsWithMoney": 12
     },
     {
-      "teacher": "Bauer",
+      "teacher": "Mongkolkasetarin",
       "grade": "K",
-      "total": 3108,
+      "total": 3109,
       "studentsWithMoney": 12
     },
     {
@@ -233,7 +233,7 @@
     },
     {
       "grade": "K",
-      "total": 6217,
+      "total": 6243,
       "studentsWithMoney": 24
     },
     {
