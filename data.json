@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-23T07:52:00-08:00",
+  "updated": "2026-11-23T19:57:00-08:00",
   "goal": 40000,
-  "totalRaised": 41553,
-  "campaignTotalShown": 43831,
+  "totalRaised": 42835,
+  "campaignTotalShown": 46113,
   "topEarners": [
     {
       "rank": 1,
@@ -16,7 +16,7 @@
       "name": "Piper T.",
       "grade": "K",
       "teacher": "Bauer",
-      "amount": 1445
+      "amount": 1521
     },
     {
       "rank": 3,
@@ -41,80 +41,80 @@
     },
     {
       "rank": 6,
+      "name": "Nolan B.",
+      "grade": "PS",
+      "teacher": "Merin",
+      "amount": 1043
+    },
+    {
+      "rank": 6,
+      "name": "Sophie B.",
+      "grade": "2",
+      "teacher": "Bray",
+      "amount": 1043
+    },
+    {
+      "rank": 8,
       "name": "Sydney H.",
       "grade": "5",
       "teacher": "Mathers",
       "amount": 1000
     },
     {
-      "rank": 7,
+      "rank": 9,
       "name": "Collins K.",
       "grade": "TK",
       "teacher": "Ruppert",
       "amount": 864
     },
     {
-      "rank": 8,
+      "rank": 10,
       "name": "Rory K.",
       "grade": "PS",
       "teacher": "Merin",
       "amount": 856
     },
     {
-      "rank": 9,
+      "rank": 11,
       "name": "Aedan F.",
       "grade": "3",
       "teacher": "Hawkins",
       "amount": 827
     },
     {
-      "rank": 9,
+      "rank": 11,
       "name": "Kaia F.",
       "grade": "2",
       "teacher": "Reynolds",
       "amount": 827
     },
     {
-      "rank": 11,
+      "rank": 13,
       "name": "Jordana K.",
       "grade": "3",
       "teacher": "Dusserre",
       "amount": 803
     },
     {
-      "rank": 12,
+      "rank": 14,
       "name": "Alia G.",
       "grade": "PS",
       "teacher": "Merin",
       "amount": 775
     },
     {
-      "rank": 13,
+      "rank": 15,
       "name": "Lena J.",
       "grade": "TK",
       "teacher": "Nguyen",
       "amount": 727
-    },
-    {
-      "rank": 14,
-      "name": "Remy B.",
-      "grade": "5",
-      "teacher": "Mathers",
-      "amount": 602
-    },
-    {
-      "rank": 15,
-      "name": "Ryland T.",
-      "grade": "1",
-      "teacher": "Kline/Stefano",
-      "amount": 555
     }
   ],
   "classes": [
     {
       "teacher": "Merin",
       "grade": "PS",
-      "total": 5290,
+      "total": 5808,
       "studentsWithMoney": 20
     },
     {
@@ -136,16 +136,22 @@
       "studentsWithMoney": 12
     },
     {
+      "teacher": "Bauer",
+      "grade": "K",
+      "total": 3108,
+      "studentsWithMoney": 12
+    },
+    {
       "teacher": "Nguyen",
       "grade": "TK",
       "total": 3074,
       "studentsWithMoney": 14
     },
     {
-      "teacher": "Bauer",
-      "grade": "K",
-      "total": 2912,
-      "studentsWithMoney": 12
+      "teacher": "Bray",
+      "grade": "2",
+      "total": 2581,
+      "studentsWithMoney": 11
     },
     {
       "teacher": "Reynolds",
@@ -158,12 +164,6 @@
       "grade": "3",
       "total": 2041,
       "studentsWithMoney": 9
-    },
-    {
-      "teacher": "Bray",
-      "grade": "2",
-      "total": 2038,
-      "studentsWithMoney": 11
     },
     {
       "teacher": "Hawkins",
@@ -216,14 +216,14 @@
     {
       "teacher": "Cabellon",
       "grade": "6",
-      "total": 732,
+      "total": 757,
       "studentsWithMoney": 5
     }
   ],
   "grades": [
     {
       "grade": "PS",
-      "total": 5290,
+      "total": 5808,
       "studentsWithMoney": 20
     },
     {
@@ -233,7 +233,7 @@
     },
     {
       "grade": "K",
-      "total": 6021,
+      "total": 6217,
       "studentsWithMoney": 24
     },
     {
@@ -243,7 +243,7 @@
     },
     {
       "grade": "2",
-      "total": 4578,
+      "total": 5121,
       "studentsWithMoney": 22
     },
     {
@@ -263,7 +263,7 @@
     },
     {
       "grade": "6",
-      "total": 1933,
+      "total": 1958,
       "studentsWithMoney": 15
     }
   ]
